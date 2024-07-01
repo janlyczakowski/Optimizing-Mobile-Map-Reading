@@ -1,0 +1,141 @@
+<resources>
+    <string name="app_name">MasterThesis</string>
+    <string name="location_btn_description">Find my location</string>
+    <string name="loading_state_message">Loading data…</string>
+    <string name="introduction_message_1">Hi!</string>
+    <string name="introduction_message_2">Thank you for joining this user testing! </string>
+    <string name="introduction_message_3">This evaluation is a part of the Master’s thesis titled:  <b>“Optimizing mobile map reading: An adaptive map approach in response to dynamic pedestrian context”</b>. </string>
+    <string name="introduction_message_4">Your feedback will help to understand the impact of the dynamic context factors on the mobile map reading process and improve mobile maps in the future! </string>
+    <string name="introduction_button_1">Next</string>
+    <string name="introduction_message_5">Let’s get started! </string>
+    <string name="introduction_message_6">Here is what to expect: </string>
+    <string name="introduction_message_7">1. You will be given a <b>short survey</b> (3 questions): this will help us understand your background and experience a bit better. </string>
+    <string name="introduction_message_8">2. We will ask you to complete <b>twice one map-related task</b> followed by <b>one question</b>. Don’t worry you will have as much time as you need to solve the task and answer the question. There are no bad or good answers but it’s important that you exactly follow the instructions.  </string>
+    <string name="introduction_message_9">3. We will give you another <b>short survey</b> (4 questions)  that will help us gather your feedback after solving the tasks.</string>
+    <string name="introduction_message_10">We’ll repeat this process at <b>three different locations</b>. Don’t worry we’ll take you there! </string>
+    <string name="introduction_message_11">Important </string>
+    <string name="introduction_message_12">Please read the questions carefully and follow the instructions! </string>
+    <string name="introduction_message_13">Feel free to ask any questions you might have <b>before starting the test</b>. If everything is clear, you’re ready to begin!</string>
+    <string name="introduction_button_2">Start</string>
+
+    <string name="pretest_survey_question_1">1. What is your gender identity?</string>
+    <string name="pretest_survey_answer_1">Female</string>
+    <string name="pretest_survey_answer_2">Male</string>
+    <string name="pretest_survey_answer_3">Other</string>
+    <string name="pretest_survey_answer_4">Prefer not to say</string>
+    <string name="pretest_survey_question_2">2. What is your age?</string>
+    <string name="pretest_survey_question_2_hint">Age</string>
+    <string name="pretest_survey_question_3">3. How often do you use mobile maps?</string>
+    <string name="pretest_survey_answer_3_1">Never</string>
+    <string name="pretest_survey_answer_3_2">Almost every day</string>
+
+    <string name="scenario_1_task_1_message_1">Scenario 1: Task 1</string>
+    <string name="scenario_1_task_1_message_2">Imagine you’re a tourist who came for a weekend trip to Vienna. Unfortunately, you’re not feeling good and you need to find a pharmacy to buy some medicines.</string>
+    <string name="scenario_1_task_1_message_3">Your task: Click on the icon representing the closest pharmacy from your location.</string>
+    <string name="scenario_1_task_1_message_4">Important </string>
+    <string name="scenario_1_task_1_message_5">Keep on walking while solving the task, you don’t have to rush but you cannot stop! </string>
+    <string name="scenario_1_task_1_message_6">Remember that whenever you stop, a warning message will be displayed. If that happens don’t worry! Just follow the instructions on the screen.</string>
+    <string name="scenario_1_task_1_icon_description">Icon of a pharmacy</string>
+    <string name="scenario_headphones_message">You can put on the headphones now</string>
+
+
+    <string name="success_message_1">We received your result!\nThank you!</string>
+    <string name="confidence_question_1">How confident are you that you completed this task successfully?</string>
+    <string name="confidence_question_2">Not confident at all</string>
+    <string name="confidence_question_3">Very confident</string>
+
+    <string name="scenario_1_task_2_message_1">Scenario 1: Task 2</string>
+    <string name="scenario_1_task_2_message_2">Imagine you’re a tourist who came to Vienna for a weekend trip and you’re interested in exploring some of the museums in your area.</string>
+    <string name="scenario_1_task_2_message_3">Your task: Click on the icon representing the closest museum from your location.</string>
+    <string name="scenario_1_task_2_message_4">Important </string>
+    <string name="scenario_1_task_2_message_5">Keep on walking while solving the task, you don’t have to rush but you cannot stop!</string>
+    <string name="scenario_1_task_2_message_6">Remember that whenever you stop, a warning message will be displayed. If that happens don’t worry! Just follow the instructions on the screen.</string>
+    <string name="scenario_1_task_2_icon_description">Icon of a museum</string>
+
+
+
+    <string name="post_test_survey_question_1">1. How familiar were you with the testing area?</string>
+    <string name="post_test_survey_answer_1_1">Not familiar at all</string>
+    <string name="post_test_survey_answer_1_2">Very familiar</string>
+    <string name="post_test_survey_question_2">2. Which of the two maps do you believe was more helpful to solve the task? </string>
+    <string name="post_test_survey_answer_2_1">First map</string>
+    <string name="post_test_survey_answer_2_2">Second map</string>
+    <string name="post_test_survey_answer_2_3">Both maps were equally helpful</string>
+    <string name="post_test_survey_answer_2_4">Both maps were unhelpful</string>
+    <string name="post_test_survey_question_3_1">3. Did you encounter any difficulties understanding the tasks or completing them? </string>
+    <string name="post_test_survey_answer_3_1">Yes</string>
+    <string name="post_test_survey_answer_3_2">No</string>
+    <string name="post_test_survey_question_3_2">If yes, please describe the difficulties you encountered.</string>
+    <string name="post_test_survey_question_3_hint">Write your answer here</string>
+    <string name="post_test_survey_question_4_1">4. Were there any issues with the app itself (e.g. slow performance, unexpected behavior, unintuitive user interface) that you think may have affected your answers?</string>
+    <string name="post_test_survey_answer_4_1">Yes</string>
+    <string name="post_test_survey_answer_4_2">No</string>
+    <string name="post_test_survey_question_4_2">If yes, please describe the specific issue with the app.</string>
+    <string name="post_test_survey_question_4_hint">Write your answer here</string>
+
+    <string name="confirmation_panel_1_message_1">The first part is completed!</string>
+    <string name="confirmation_panel_1_message_2">Thank you for your responses!</string>
+    <string name="confirmation_panel_1_message_3">Now you will be taken to the second location. No need to do anything for now.</string>
+    <string name="confirmation_panel_1_message_4">Once you’re there press “Next” to continue the second part of the user evaluation.</string>
+    <string name="confirmation_panel_1_message_5">Important </string>
+    <string name="confirmation_panel_1_message_6">Don’t close the application, just block the screen.</string>
+
+    <string name="scenario_2_task_1_message_1">Scenario 2: Task 1</string>
+    <string name="scenario_2_task_1_message_2">Imagine you’re in a rush to catch public transport. You’re worried about the unexpected delays that might slow you down on the way, like waiting to cross the street.</string>
+    <string name="scenario_2_task_1_message_3">Your task: Click on the icon representing the closest traffic signal from your location.</string>
+    <string name="scenario_2_task_1_message_4">Important </string>
+    <string name="scenario_2_task_1_message_5">You have to run while solving the task! Only after solving the task, you should stop. You can also stop to click on the icon once you found it.</string>
+    <string name="scenario_2_task_1_message_6">Remember that whenever you stop or slow down, a warning message will be displayed. If that happens don’t worry! Just follow the instructions on the screen.</string>
+    <string name="scenario_2_task_1_icon_description">Icon of a traffic signal</string>
+
+
+    <string name="scenario_2_task_2_message_1">Scenario 2: Task 2</string>
+    <string name="scenario_2_task_2_message_2">Imagine you’re in a rush to catch public transport. You want to know which way to go to the nearest bus stop.</string>
+    <string name="scenario_2_task_2_message_3">Your task: Click on the icon representing the closest bus stop from your location.</string>
+    <string name="scenario_2_task_2_message_4">Important </string>
+    <string name="scenario_2_task_2_message_5">You have to run while solving the task! Only after solving the task, you should stop. You can also stop to click on the icon once you found it.</string>
+    <string name="scenario_2_task_2_message_6">Remember that whenever you stop or slow down, a warning message will be displayed. If that happens don’t worry! Just follow the instructions on the screen.</string>
+    <string name="scenario_2_task_2_icon_description">Icon of a bus stop</string>
+
+
+    <string name="confirmation_panel_2_message_1">The second part is completed!</string>
+    <string name="confirmation_panel_2_message_2">Thank you for your responses!</string>
+    <string name="confirmation_panel_2_message_3">Now you will be taken to the last location. No need to do anything for now.</string>
+    <string name="confirmation_panel_2_message_4">Once you’re there press “Next” to continue the last part of the user evaluation.</string>
+    <string name="confirmation_panel_2_message_5">Important </string>
+    <string name="confirmation_panel_2_message_6">Don’t close the application, just block the screen.</string>
+
+    <string name="scenario_3_task_1_message_1">Scenario 3: Task 1</string>
+    <string name="scenario_3_task_1_message_2">Imagine you went for a walk in the park and you’re trying to find toilets. </string>
+    <string name="scenario_3_task_1_message_3">Your task: Click on the icon representing the closest toilet from your location.</string>
+    <string name="scenario_3_task_1_message_4">Important </string>
+    <string name="scenario_3_task_1_message_5">Keep on walking while solving the task, you don’t have to rush but you cannot stop walking!</string>
+    <string name="scenario_3_task_1_message_6">Remember that whenever you stop, a warning message will be displayed. If that happens don’t worry! Just follow the instructions on the screen.</string>
+    <string name="scenario_3_task_1_icon_description">Icon of a toilet</string>
+
+
+    <string name="scenario_3_task_2_message_1">Scenario 3: Task 2</string>
+    <string name="scenario_3_task_2_message_2">Imagine you went for a walk in the park and you want to find out whether there are any places where you could practice some sport. </string>
+    <string name="scenario_3_task_2_message_3">Your task: Click on the icon representing the closest area to practice sport  from your location.</string>
+    <string name="scenario_3_task_2_message_4">Important </string>
+    <string name="scenario_3_task_2_message_5">Keep on walking while solving the task, you don’t have to rush but you cannot stop walking!</string>
+    <string name="scenario_3_task_2_message_6">Remember that whenever you stop, a warning message will be displayed. If that happens don’t worry! Just follow the instructions on the screen.</string>
+    <string name="scenario_3_task_2_icon_description">Icon of an area to practice sport</string>
+
+
+    <string name="confirmation_panel_3_message_1">That\'s it!</string>
+    <string name="confirmation_panel_3_message_2">That’s the end of the user testing.</string>
+    <string name="confirmation_panel_3_message_3">Thank you for your time and contribution!</string>
+
+    <string name="noise_warning_message_1">Attention!</string>
+    <string name="noise_warning_message_2">Very loud sound will be played after clicking the button.</string>
+
+    <string name="speed_warning_message_1">You\'re moving too slow! </string>
+    <string name="speed_warning_message_2">Please speed up to continue the test.</string>
+    <string name="speed_warning_message_3">Already found the icon?</string>
+    <string name="speed_warning_message_4">Then click on the green button and finish the task.</string>
+
+    <string name="confirmation_btn_description">I already found the icon</string>
+    <string name="server_failure_response_message">Data couldn\'t be loaded, please go back and open the map again. </string>
+
+</resources>

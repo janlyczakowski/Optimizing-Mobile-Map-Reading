@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primary_colour"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/pretest_survey_question_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/inter_regular"
+            android:text="@string/pretest_survey_question_1"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <RadioGroup
+            android:id="@+id/pretest_survey_radio_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            >
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@+id/pretest_survey_radio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:fontFamily="@font/inter_regular"
+                android:text="@string/pretest_survey_answer_1"
+                android:textSize="20sp"/>
+
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@+id/pretest_survey_radio2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:fontFamily="@font/inter_regular"
+                android:text="@string/pretest_survey_answer_2"
+                android:textSize="20sp"/>
+
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@+id/pretest_survey_radio3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:fontFamily="@font/inter_regular"
+                android:text="@string/pretest_survey_answer_3"
+                android:textSize="20sp"/>
+
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@+id/pretest_survey_radio4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:fontFamily="@font/inter_regular"
+                android:text="@string/pretest_survey_answer_4"
+                android:textSize="20sp" />
+
+        </RadioGroup>
+        <TextView
+            android:id="@+id/pretest_survey_question_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/inter_regular"
+            android:text="@string/pretest_survey_question_2"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/pretest_survey_answer_2"
+            android:layout_width="120dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:ems="2"
+            android:hint="@string/pretest_survey_question_2_hint"
+            android:inputType="number"
+            android:autofillHints="age" />
+
+        <TextView
+            android:id="@+id/pretest_survey_question_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/inter_regular"
+            android:text="@string/pretest_survey_question_3"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:id="@+id/pretest_survey_ratingbar_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            >
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/pretest_survey_answer_3_btn_1"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="15dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="1"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:fontFamily="@font/inter_regular"
+                android:background="@drawable/box_empty"
+                android:onClick="onClickRatingBarBtnListener"/>
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/pretest_survey_answer_3_btn_2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="2"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:fontFamily="@font/inter_regular"
+                android:background="@drawable/box_empty"
+                android:onClick="onClickRatingBarBtnListener"
+                />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/pretest_survey_answer_3_btn_3"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="3"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:fontFamily="@font/inter_regular"
+                android:background="@drawable/box_empty"
+                android:onClick="onClickRatingBarBtnListener"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/pretest_survey_answer_3_btn_4"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="4"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:fontFamily="@font/inter_regular"
+                android:background="@drawable/box_empty"
+                android:onClick="onClickRatingBarBtnListener"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/pretest_survey_answer_3_btn_5"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="5"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:fontFamily="@font/inter_regular"
+                android:background="@drawable/box_empty"
+                android:onClick="onClickRatingBarBtnListener"
+                />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginStart="43dp"
+            android:layout_marginEnd="35dp"
+            android:layout_marginTop="5dp"
+            >
+
+            <TextView
+                android:id="@+id/pretest_survey_answer_3_1"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/inter_regular"
+                android:text="@string/pretest_survey_answer_3_1"
+                android:textSize="14sp"
+                />
+
+            <TextView
+                android:id="@+id/pretest_survey_answer_3_2"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/inter_regular"
+                android:text="@string/pretest_survey_answer_3_2"
+                android:textSize="14sp"
+                android:layout_alignParentEnd="true"
+                android:textAlignment="center"/>
+
+        </RelativeLayout>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_pretest_survey"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="60dp"
+            android:background="@drawable/button_curved_corners"
+            android:text="@string/introduction_button_1"
+            android:textAllCaps="true"
+            android:fontFamily="@font/inter_regular"
+            android:letterSpacing="0.1"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:onClick="onClickPretestSurveyBtnListener"/>
+
+    </LinearLayout>
+</ScrollView>
+
